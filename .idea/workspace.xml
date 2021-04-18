@@ -32,7 +32,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.TestTemplate">
+  <component name="RunManager" selected="JUnit.TestTemplateParse">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -43,19 +43,18 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.drewburton.Main" />
-      <module name="TestDrivenDevelopment" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="RegexLearningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <option name="PACKAGE_NAME" value="com.drewburton" />
+      <option name="MAIN_CLASS_NAME" value="com.drewburton.RegexLearningTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,23 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTemplate.differentValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTemplateParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="com.drewburton" />
-      <option name="MAIN_CLASS_NAME" value="com.drewburton.TestTemplate" />
-      <option name="METHOD_NAME" value="differentValue" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.drewburton.TestTemplateParse" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTemplate.oneVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVariableSegment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="com.drewburton" />
-      <option name="MAIN_CLASS_NAME" value="com.drewburton.TestTemplate" />
-      <option name="METHOD_NAME" value="oneVariable" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.drewburton.TestVariableSegment" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,47 +107,55 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.TestTemplate.oneVariable" />
-      <item itemvalue="JUnit.TestTemplate.differentValue" />
       <item itemvalue="JUnit.TestTemplate" />
       <item itemvalue="JUnit.TemplateTestPerformance" />
+      <item itemvalue="JUnit.RegexLearningTest" />
+      <item itemvalue="JUnit.TestTemplateParse" />
+      <item itemvalue="JUnit.TestVariableSegment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTemplateParse" />
         <item itemvalue="JUnit.TestTemplate" />
+        <item itemvalue="JUnit.TestVariableSegment" />
+        <item itemvalue="JUnit.RegexLearningTest" />
         <item itemvalue="JUnit.TemplateTestPerformance" />
-        <item itemvalue="JUnit.TestTemplate.differentValue" />
-        <item itemvalue="JUnit.TestTemplate.oneVariable" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1618163998873">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618788788821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618163998873" />
-    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1618166630777">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618788788821" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1618787941318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618166630777" />
-    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1618166630777">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618787941318" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1618787196834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618166630777" />
-    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1618166630777">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618787196834" />
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1618789564216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618166630777" />
-    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1618166630777">
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1618789564216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618166630777" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1618146847515">
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1618789564216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618146847515" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1618789564216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1618783579169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618783579169" />
     <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1618095299823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,5 +168,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="271" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618149232676" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1618422254166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618422254166" />
   </component>
 </project>
