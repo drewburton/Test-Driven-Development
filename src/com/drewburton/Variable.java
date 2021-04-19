@@ -19,4 +19,8 @@ public class Variable implements Segment {
     public boolean equals(Object other) {
         return name.equals(((Variable)other).name);
     }
+
+    public String toString() {
+        return name;
+    }
 }

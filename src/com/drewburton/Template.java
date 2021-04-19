@@ -19,7 +19,7 @@ public class Template {
 
     public String evaluate() {
         TemplateParse parser = new TemplateParse();
-        List<Segment> segments = parser.parseSegments(templateText);
+        List<Segment> segments = parser.parse(templateText);
         return concatenate(segments);
     }
 

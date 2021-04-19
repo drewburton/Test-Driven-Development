@@ -17,4 +17,8 @@ public class PlainText implements Segment {
     public boolean equals(Object other) {
         return text.equals(((PlainText)other).text);
     }
+
+    public String toString() {
+        return text;
+    }
 }

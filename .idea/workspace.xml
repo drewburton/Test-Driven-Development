@@ -32,7 +32,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.TestTemplateParse">
+  <component name="RunManager" selected="JUnit.TextPlainTextSegment">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -53,16 +53,6 @@
       <module name="TestDrivenDevelopment" />
       <option name="PACKAGE_NAME" value="com.drewburton" />
       <option name="MAIN_CLASS_NAME" value="com.drewburton.RegexLearningTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateTestPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestDrivenDevelopment" />
-      <option name="PACKAGE_NAME" value="com.drewburton" />
-      <option name="MAIN_CLASS_NAME" value="com.drewburton.TemplateTestPerformance" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -99,6 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextPlainTextSegment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestDrivenDevelopment" />
+      <option name="PACKAGE_NAME" value="com.drewburton" />
+      <option name="MAIN_CLASS_NAME" value="com.drewburton.TextPlainTextSegment" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -108,18 +108,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestTemplate" />
-      <item itemvalue="JUnit.TemplateTestPerformance" />
       <item itemvalue="JUnit.RegexLearningTest" />
       <item itemvalue="JUnit.TestTemplateParse" />
       <item itemvalue="JUnit.TestVariableSegment" />
+      <item itemvalue="JUnit.TextPlainTextSegment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextPlainTextSegment" />
+        <item itemvalue="JUnit.TestVariableSegment" />
         <item itemvalue="JUnit.TestTemplateParse" />
         <item itemvalue="JUnit.TestTemplate" />
-        <item itemvalue="JUnit.TestVariableSegment" />
         <item itemvalue="JUnit.RegexLearningTest" />
-        <item itemvalue="JUnit.TemplateTestPerformance" />
       </list>
     </recent_temporary>
   </component>
@@ -136,22 +136,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618787196834" />
-    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1618789564216">
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom" timestamp="1618790343360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
-    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1618789564216">
+    <state width="1899" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618790343360" />
+    <state width="1899" height="290" key="GridCell.Tab.0.center" timestamp="1618790343360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
-    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1618789564216">
+    <state width="1899" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618790343360" />
+    <state width="1899" height="290" key="GridCell.Tab.0.left" timestamp="1618790343360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
-    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1618789564216">
+    <state width="1899" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618790343360" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right" timestamp="1618790343360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618789564216" />
+    <state width="1899" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618790343360" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1618783579169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

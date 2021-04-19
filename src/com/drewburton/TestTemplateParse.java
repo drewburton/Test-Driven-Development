@@ -10,7 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 public class TestTemplateParse {
 
-    private List<String> parse(String templateText) {
+    private List<Segment> parse(String templateText) {
         return new TemplateParse().parse(templateText);
     }
 
@@ -22,7 +22,7 @@ public class TestTemplateParse {
     @Test
     public void parsingTemplateIntoSegmentObjects() throws Exception {
         TemplateParse p = new TemplateParse();
-        List<Segment> segments = p.parseSegments("a ${b} c ${d}");
+        List<Segment> segments = p.parse("a ${b} c ${d}");
         assertSegments(segments,
                 new PlainText("a "), new Variable("b"),
                 new PlainText(" c "), new Variable("d"));
@@ -30,19 +30,20 @@ public class TestTemplateParse {
 
     @Test
     public void emptyTemplateRendersAsEmptyString() throws Exception {
-        List<String> segments = parse("");
-        assertSegments(segments, "");
+        List<Segment> segments = parse("");
+        assertSegments(segments, new PlainText(""));
     }
 
     @Test
     public void templateWithOnlyPlainText() throws Exception {
-        List<String> segments = parse("plain text only");
-        assertSegments(segments, "plain text only");
+        List<Segment> segments = parse("plain text only");
+        assertSegments(segments, new PlainText("plain text only"));
     }
 
     @Test
     public void parsingMultipleVariables() throws Exception {
-        List<String> segments = parse("${a}:${b}:${c}");
-        assertSegments(segments, "${a}", ":", "${b}", ":", "${c}");
+        List<Segment> segments = parse("${a}:${b}:${c}");
+        assertSegments(segments, new Variable("a"), new PlainText(":"),
+                new Variable("b"), new PlainText(":"), new Variable("c"));
     }
 }
